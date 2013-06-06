@@ -54,7 +54,7 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 	}
- 
+
 	#wrapper {
 		background: #fff;
 		width: 1020px;
@@ -62,14 +62,14 @@
 		padding: 0;
 		box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, 0.2);
 	}
-	
+
 	/* Main Font */
 	body, h1, h2, h3, h4, h5, h6,
 	.button, input[type="button"], input[type="submit"],
 	input[type="text"], input[type="password"], input[type="email"], textarea, select {
 		font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", "hiragino sans gb", "Microsoft YaHei", Helvetica, Arial, sans-serif;
 	}
-	
+
 
 /* Basic Alginment
 ================================================== */
@@ -77,7 +77,7 @@
 		height: auto;
 		max-width: 100%;
 	}
-	
+
 	.columns.google-map img {
 		max-width: none;
 	}
@@ -86,7 +86,7 @@
 		height: auto;
 		display:block;
 	}
-	
+
 	img {
 		width: auto;
 		border: 0;
@@ -116,12 +116,12 @@
 		float: left;
 		margin: 5px 15px 8px 0;
 	}
-	
+
 	.image-right {
 		float:right;
 		margin: 5px 0 8px 15px;
 	}
-	
+
 	.image-right,
 	.image-left {
 		padding: 5px;
@@ -138,12 +138,12 @@
 		font-weight: 600;
 		letter-spacing: -0.2px;
 	}
-	
+
 	h2 span, h3 span {
 		color: #888;
 		font-weight: 200;
 	}
-		
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 28px; line-height: 50px; }
 	h2 { font-size: 22px; line-height: 30px; }
@@ -165,7 +165,7 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #169fe6; text-decoration: none; outline: 0; -webkit-transition: color 0.1s ease-in-out; -moz-transition: color 0.1s ease-in-out; -o-transition: color 0.1s ease-in-out; -transition: color 0.1s ease-in-out; }
+	a, a:visited { color: #DAAA00; text-decoration: none; outline: 0; -webkit-transition: color 0.1s ease-in-out; -moz-transition: color 0.1s ease-in-out; -o-transition: color 0.1s ease-in-out; -transition: color 0.1s ease-in-out; }
 	a:hover, a:focus { color: #888; }
 	a b, span b { font-family: Verdana, Tahoma; font-weight: normal; opacity: 0.5;}
 	span b { line-height: 14px; }
@@ -218,7 +218,7 @@
 	input[type="email"]:focus,
 	textarea:focus {
 		border: 1px solid #d6d6d6;
-		color: #888; 
+		color: #888;
 		}
 	textarea {
 		min-height: 60px; }
@@ -226,7 +226,7 @@
 	legend {
 		display: block;
 		font-weight: bold;
-		font-size: 13px; 
+		font-size: 13px;
 		font-weight: normal;
 		margin-bottom: 5px;}
 	select {
