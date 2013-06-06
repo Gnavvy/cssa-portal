@@ -1,6 +1,6 @@
 /*
 * Based on Skeleton by Dave Gamache (www.getskeleton.com)
-* Modified by Vasterad
+* Modified by Vasterad, Gnavvy
 */
 
 
@@ -86,10 +86,11 @@
     
     .container .sixteen.columns,
     .container .sixteen.floated                 { width: 940px; }
-    
 
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
+
+    .container .one-fourth.column               { width: 220px; }
 
 
     /* Offsets */
