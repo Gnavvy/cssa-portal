@@ -90,8 +90,6 @@
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
 
-    .container .one-fourth.column               { width: 220px; }
-
 
     /* Offsets */
     .container .offset-by-one                   { padding-left: 60px;  }
