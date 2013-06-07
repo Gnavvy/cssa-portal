@@ -985,7 +985,7 @@ blockquote {
 /* Progress Bar
 ====================================*/
 .skill-bar {
-	height: 41px;
+	height: 40px;
 	position: relative;
 	background: #f6f6f6;
 	margin: 0 0 10px 0;
@@ -996,7 +996,7 @@ blockquote {
 
 .skill-bar-content {
 	background: #169fe6;
-	height: 41px;
+	height: 40px;
 	width: 0%;
 	box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.12);
 }
