@@ -21,6 +21,7 @@
 	background: #169fe6;
 	height: 5px;
 	display: block;
+    margin-top: -21px;
 }
 
 #header { min-height: 120px; }
@@ -79,7 +80,7 @@
 #tagline {
     color: #888;
     border-left: 1px solid #e8e8e8;
-    margin: 50px 0 0 20px;
+    margin: 40px 0 0 20px;
     padding: 5px 0 5px 20px;
     float: left;
     font-size: 16px;
@@ -2246,7 +2247,6 @@ input[type="submit"]:hover { background:#aaa; }
 	display: block;
 	cursor: pointer;
 	position: relative;
-	padding: 0;
 	font-size: 13px;
 	padding: 14px 0 15px 0;
 	line-height: 26px;

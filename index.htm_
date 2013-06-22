@@ -43,12 +43,10 @@
 <div class="container">
     <header id="header">
         <!-- Logo -->
-        <div class="ten columns">
-            <div id="logo">
-                <h1><a href="#"><img src="images/logo.png" alt="UCDavis CSSA"/></a></h1>
-                <div id="tagline">加州大学戴维斯分校中国学生学者联合会</div>
-                <div class="clearfix"></div>
-            </div>
+        <div id="logo">
+            <h1><a href="#"><img src="images/logo.png" alt="UCDavis CSSA"/></a></h1>
+            <div id="tagline">加州大学戴维斯分校<br />中国学生学者联合会</div>
+            <div class="clearfix"></div>
         </div>
     </header>
     <div class="clearfix"></div>
