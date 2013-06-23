@@ -12,7 +12,6 @@
 @import url("icons.css");				/* Font Awesome Icons / Glyphicons Halflings */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
 
-
 /* =================================================================== */
 /* Header
 ====================================================================== */
@@ -21,7 +20,7 @@
 	background: #169fe6;
 	height: 5px;
 	display: block;
-    margin-top: -21px;
+    /*margin-top: -21px;*/
 }
 
 #header { min-height: 120px; }
@@ -1738,7 +1737,7 @@ ol li ol.childlist .comment-des {
 	background: #f6f6f6;
 	color: #888;
 	border-radius: 2px;
-	-webkit-box-shadow:: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
+	-webkit-box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
 	box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
 	padding: 17px 20px 20px 20px;
 }
@@ -1952,7 +1951,7 @@ ul.option-set li a:active { background: #fff; }
 	background: #f6f6f6;
 	color: #888;
 	border-radius: 2px;
-	-webkit-box-shadow:: inset 0px -1px 0px 0px rgba(0,0,0, 0.07);
+	-webkit-box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.07);
 	box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.07);
 }
 
@@ -2097,7 +2096,7 @@ input[type="submit"]:focus {
 	border: none !important;
 }
 
-ininput[type="button"]:hover,
+input[type="button"]:hover,
 input[type="submit"]:hover { background:#aaa; }
 
 
@@ -2109,7 +2108,7 @@ input[type="submit"]:hover { background:#aaa; }
 	margin-bottom: 15px;
 	position: relative;
 	padding: 14px 40px 14px 18px;
-	-webkit-box-shadow:  0px 2px 0px 0px rgba(0, 0, 0, 0.03);
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);
 	box-shadow:  0px 2px 0px 0px rgba(0, 0, 0, 0.03);
 }
 
@@ -2464,7 +2463,7 @@ table.standard-table tr:hover td {background-color: #fafafa;}
 	padding: 25px;
 	line-height: 21px;
 	border-radius: 2px;
-	-webkit-box-shadow:: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
+	-webkit-box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
 	box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
 }
 
@@ -2705,7 +2704,7 @@ table.standard-table tr:hover td {background-color: #fafafa;}
 	background: #f6f6f6;
 	color: #888;
 	border-radius: 2px;
-	-webkit-box-shadow:: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
+	-webkit-box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
 	box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.06);
 }
 
@@ -2903,32 +2902,31 @@ span.time {
 #footer {
 	background: #4c4c4c;
 	width: 1020px;
-	padding: 30px 0 31px 0;;
+	padding: 30px 0 30px 0;;
 	margin: 0 auto;
 	font-size: 12px;
 }
 
 #footer-bottom {
-	background: #424242;
+	/*background: #424242;*/
 	width: 1020px;
-	padding: 15px 0;
-	margin: 0 auto;
+	padding: 0;
+	margin: 12px auto;
 	font-size: 12px;
 }
 
-#footer, #footer p, #footer a { color: #ddd; }
-#footer a:hover { color: #fff; }
-
+#footer, #footer p, #footer a { color: #aaa; }
+#footer a:hover { color: #aaa; }
 #footer h4 {
 	padding: 0;
 	margin: 0 0 15px 0;
 	font-size: 14px;
-	color: #fff;
+	color: #aaa;
 }
 
 .copyright { color: #aaa; }
 .copyright a,
-.copyright span { color: #eee !important; }
+.copyright span { color: #aaa !important; }
 
 #sub-menu {
 	float: right;

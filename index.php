@@ -34,40 +34,6 @@
         </div>
     </section>
 
-    <!-- Quick Link  -->
-    <div class="container">
-        <section class="icon-box-container">
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-bullhorn"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-magic"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-beaker"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-beaker"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-        </section>
-    </div>
-
     <!-- Recent Work -->
     <div class="container floated">
         <div class="blank floated">
@@ -178,13 +144,45 @@
                 </ul>
             </section>
             <!-- jCarousel / End -->
-
         </div>
+    </div> <!-- Recent Work -->
+
+    <!-- Quick Link  -->
+    <div class="container">
+        <section class="icon-box-container">
+            <div class="four columns">
+                <article class="icon-box">
+                    <i class="icon-bullhorn"></i>
+                    <h3> UCDavis CSSA </h3>
+                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
+                </article>
+            </div>
+            <div class="four columns">
+                <article class="icon-box">
+                    <i class="icon-magic"></i>
+                    <h3> UCDavis CSSA </h3>
+                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
+                </article>
+            </div>
+            <div class="four columns">
+                <article class="icon-box">
+                    <i class="icon-beaker"></i>
+                    <h3> UCDavis CSSA </h3>
+                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
+                </article>
+            </div>
+            <div class="four columns">
+                <article class="icon-box">
+                    <i class="icon-beaker"></i>
+                    <h3> UCDavis CSSA </h3>
+                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
+                </article>
+            </div>
+        </section>
     </div>
-    </div>
-    <!-- Content / End -->
-</div>
-<!-- Wrapper / End -->
+
+    </div> <!-- Content / End -->
+</div> <!-- Wrapper / End -->
 
 <!-- Footer -->
 <?php require_once('footer.php'); ?>
