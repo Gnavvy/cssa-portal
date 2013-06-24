@@ -37,7 +37,7 @@
 
 <!-- Wrapper / Start -->
 <div id="wrapper">
-<!--<div id="top-line"></div>-->
+<div id="top-line"></div>
 
 <!-- Header -->
 <div class="container">
@@ -45,7 +45,7 @@
         <!-- Logo -->
         <div id="logo">
             <h1><a href="#"><img src="images/logo.png" alt="UCDavis CSSA"/></a></h1>
-            <div id="tagline">加州大学戴维斯分校<br />中国学生学者联合会</div>
+            <div id="tagline">加利福尼亚大学戴维斯分校<br />中国学生学者联合会</div>
             <div class="clearfix"></div>
         </div>
     </header>
@@ -58,17 +58,12 @@
     <div class="right-corner"></div>
 
     <ul class="menu" id="responsive">
-        <li><a href="index.php" id="current"><i class="halflings white home"></i> 首页 </a></li>
+        <li><a href="index.php"><i class="halflings white home"></i> 首页 </a></li>
         <li><a href="about.php"><i class="halflings white file"></i> 关于我们 </a></li>
-        <li><a href="newcommer.html"><i class="halflings white cog"></i> 新生指南 </a></li>
-        <li><a href="#"><i class="halflings white briefcase"></i> 文体活动 </a></li>
-        <li><a href="#"><i class="halflings white shopping-cart"></i> 外联合作 </a>
-            <ul>
-                <li><a href="#">兄弟院校</a></li>
-                <li><a href="#">赞助商</a></li>
-            </ul>
-        </li>
-        <li><a href="contact.html"><i class="halflings white envelope"></i> 联系我们 </a></li>
+        <li><a href="newcomer.php"><i class="halflings white cog"></i> 新生指南 </a></li>
+        <li><a href="activities.php"><i class="halflings white briefcase"></i> 文体活动 </a></li>
+        <li><a href="connection.php"><i class="halflings white shopping-cart"></i> 外联合作 </a></li>
+        <li><a href="contact.php"><i class="halflings white envelope"></i> 联系我们 </a></li>
     </ul>
 </nav>
 <div class="clearfix"></div>

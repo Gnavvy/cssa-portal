@@ -1,117 +1,131 @@
-<?php if (!isset($_SESSION)) session_start();
+﻿<!-- Header -->
+<?php require_once('header.php'); ?>
 
-if(!$_POST) exit();
+<!-- Content -->
+<div id="content">
 
-if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
+<!-- 960 Container -->
+<div class="container floated">
 
-// Configuration option.
-// Enter the $email $address that you want to emails to be sent to.
-// Example $address = "joe.doe@yourdomain.com";
+	<!-- Sidebar -->
+	<div class="four floated sidebar left">
+		<aside class="sidebar padding-reset">
 
-$address = "mail@example.com";
+			<div class="widget">
+				<h4>Information</h4>
+				<p>Phasellus ultricies id suscipit mauris monte lobortis. Cum sociis natoque penatibus magnis parturient.</p>
+			</div>
 
-///////////////////////////////////////////////////////////////////////////
-//
-// Do not edit the following lines
-//
-///////////////////////////////////////////////////////////////////////////
+			<div class="widget">
+				<h4>General Inquiries</h4>
 
-$postValues = array();
-foreach ( $_POST as $name => $value ) {
-	$postValues[$name] = trim( $value );
-}
-extract( $postValues );
+				<ul class="contact-informations">
+					<li><span class="address">One Shield Avenue</span></li>
+					<li><span class="address">Davis, CA 95616, USA</span></li>
+				</ul>
 
-// Important Variables
-$posted_verify = isset( $postValues['verify'] ) ? md5( $postValues['verify'] ) : '';
-$session_verify = !empty($_SESSION['jigowatt']['html5-contact-form']['verify']) ? $_SESSION['jigowatt']['html5-contact-form']['verify'] : '';
+				<ul class="contact-informations second">
+					<li><i class="halflings headphones"></i> <p>+1 530 000 000</p></li>
+					<li><i class="halflings envelope"></i> <p>support@example.com</p></li>
+					<li><i class="halflings globe"></i> <p>www.daviscssa.org</p></li>
+				</ul>
 
-$error = '';
+			</div>
 
-///////////////////////////////////////////////////////////////////////////
-//
-// Begin verification process
-//
-// You may add or edit lines in here.
-//
-// To make a field not required, simply delete the entire if statement for that field.
-// You will also have to remove required="required" from the input field, on index.html.
-//
-///////////////////////////////////////////////////////////////////////////
+		</aside>
+	</div>
+	<!-- Sidebar / End -->
 
+	<!-- Page Content -->
+	<div class="eleven floated right">
+		<section class="page-content">
 
-////////////////////////
-// Email field is required
-if(empty($email)) {
-	$error = 'Attention! Please enter a valid email address.';
-} else if(!isEmail($email)) {
-	$error = 'Attention! You have enter an invalid e-mail address, try again.';
-}
-////////////////////////
+			<h3 class="margin-reset">Our Location</h3>
 
+			<br />
 
-////////////////////////
-// Comments field is required
-if(empty($comments)) {
-	$error = 'Attention! Please enter your message.';
-}
-////////////////////////
+			<!-- Google Maps -->
+			<section class="google-map-container">
 
+				<div id="googlemaps" class="google-map google-map-full" style="padding-bottom:40%"></div>
 
-// End verification.
-///////////////////////////////////////////////////////////////////////////
+				<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+				<script src="js/jquery.gmap.min.js"></script>
 
-
-if (!empty($error)) {
-	echo '<div class="error_message">' . $error . '</div>';
-	exit;
-}
-
- // Configuration option.
- // i.e. The standard $subject will appear as, "You've been contacted by John Doe."
-
- // Example, $e_subject = $name . ' has contacted you via Your Website.';
- $e_subject = "You've been contacted by $name";
+				<script type="text/javascript">
+				jQuery('#googlemaps').gMap({
+					maptype: 'ROADMAP',
+					scrollwheel: false,
+					zoom: 12,
+					markers: [
+						{
+							address: 'Davis', // Your Adress Here
+							html: '',
+							popup: false
+						}
+					]
+				});
+				</script>
+			</section>
+			<!-- Google Maps / End -->
 
 
- // Configuration option.
- // You can change $this if you feel that you need to.
- // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
+			<h3 class="margin">Contact Form</h3>
+			<p class="margin">The simple contact form below comes packed within this theme. This HTML5 & AJAX contact form utilises cutting edge HMTL5 code and jQuery animations to make your contact page elegant and ultra-usable.</p>
 
- $e_body = "You have been contacted by $name with regards to $subject, their additional message is as follows." . PHP_EOL . PHP_EOL;
- $e_content = $comments . PHP_EOL . PHP_EOL;
- $e_reply = "You can contact $name via email at: $email.";
+				<!-- Contact Form -->
+				<section id="contact">
 
- if (!empty($phone)) $e_reply .= " or via phone $phone.";
+					<!-- Success Message -->
+					<mark id="message"></mark>
 
- if (!empty($website)) $e_reply .= " Their website address is $website.";
+					<!-- Form -->
+					<form method="post" action="contactform.php" name="contactform" id="contactform">
 
- $msg = wordwrap($e_body . $e_content . $e_reply, 70);
+						<fieldset>
 
- $headers = "From: $email" . PHP_EOL;
- $headers .= "Reply-To: $email" . PHP_EOL;
- $headers .= "MIME-Version: 1.0" . PHP_EOL;
- $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
- $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
+							<div>
+								<label for="name" accesskey="U">Name:</label>
+								<input name="name" type="text" id="name" />
+							</div>
 
- if(mail($address, $e_subject, $msg, $headers)) {
+							<div>
+								<label for="email" accesskey="E">Email: <span>*</span></label>
+								<input name="email" type="email" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" />
+							</div>
 
-	 // Email has sent successfully, echo a success page.
-	 echo "<fieldset>";
-	 echo "<div id='success_page'>";
-	 echo "<div class='notification success closeable'>";
-	 echo "<p><span>Success!</span> Your message has been sent to us.</p>";
-	 echo "</div>";
-	 echo "</fieldset>";
-	
- } else {
+							<div>
+								<label for="comments" accesskey="C">Message: <span>*</span></label>
+								<textarea name="comments" cols="40" rows="3" id="comments" spellcheck="true"></textarea>
+							</div>
 
-	 echo 'ERROR! Please ensure PHP Mail() is correctly configured on this server.';
+						</fieldset>
 
- }
+						<input type="submit" class="submit" id="submit" value="Send Message" />
+						<div class="clearfix"></div>
 
-function isEmail($email) { // Email address verification, do not edit.
+					</form>
 
-	return(preg_match("/^[-_.[:alnum:]]+@((([[:alnum:]]|[[:alnum:]][[:alnum:]-]*[[:alnum:]])\.)+(ad|ae|aero|af|ag|ai|al|am|an|ao|aq|ar|arpa|as|at|au|aw|az|ba|bb|bd|be|bf|bg|bh|bi|biz|bj|bm|bn|bo|br|bs|bt|bv|bw|by|bz|ca|cc|cd|cf|cg|ch|ci|ck|cl|cm|cn|co|com|coop|cr|cs|cu|cv|cx|cy|cz|de|dj|dk|dm|do|dz|ec|edu|ee|eg|eh|er|es|et|eu|fi|fj|fk|fm|fo|fr|ga|gb|gd|ge|gf|gh|gi|gl|gm|gn|gov|gp|gq|gr|gs|gt|gu|gw|gy|hk|hm|hn|hr|ht|hu|id|ie|il|in|info|int|io|iq|ir|is|it|jm|jo|jp|ke|kg|kh|ki|km|kn|kp|kr|kw|ky|kz|la|lb|lc|li|lk|lr|ls|lt|lu|lv|ly|ma|mc|md|me|mg|mh|mil|mk|ml|mm|mn|mo|mp|mq|mr|ms|mt|mu|museum|mv|mw|mx|my|mz|na|name|nc|ne|net|nf|ng|ni|nl|no|np|nr|nt|nu|nz|om|org|pa|pe|pf|pg|ph|pk|pl|pm|pn|pr|pro|ps|pt|pw|py|qa|re|ro|ru|rw|sa|sb|sc|sd|se|sg|sh|si|sj|sk|sl|sm|sn|so|sr|st|su|sv|sy|sz|tc|td|tf|tg|th|tj|tk|tm|tn|to|tp|tr|tt|tv|tw|tz|ua|ug|uk|um|us|uy|uz|va|vc|ve|vg|vi|vn|vu|wf|ws|ye|yt|yu|za|zm|zw)$|(([0-9][0-9]?|[0-1][0-9][0-9]|[2][0-4][0-9]|[2][5][0-5])\.){3}([0-9][0-9]?|[0-1][0-9][0-9]|[2][0-4][0-9]|[2][5][0-5]))$/i",$email));
+				</section>
+				<!-- Contact Form / End -->
 
-} ?>
+
+		</section>
+	</div>
+	<!-- Page Content / End -->
+
+
+</div>
+<!-- 960 Container / End -->
+
+</div>
+<!-- Content / End -->
+
+</div>
+<!-- Wrapper / End -->
+
+<!-- Footer -->
+<?php require_once('footer.php'); ?>
+
+</body>
+</html>
