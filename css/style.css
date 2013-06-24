@@ -2908,10 +2908,8 @@ span.time {
 }
 
 #footer-bottom {
-	/*background: #424242;*/
 	width: 1020px;
-	padding: 0;
-	margin: 12px auto;
+	margin: -12px auto;
 	font-size: 12px;
 }
 

@@ -1,5 +1,6 @@
 ﻿<!-- Header -->
 <?php require_once('header.php'); ?>
+
 <!-- Content -->
 <div id="content">
     <!-- LayerSlider  -->
