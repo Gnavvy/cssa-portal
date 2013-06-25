@@ -921,27 +921,20 @@ html[xmlns] .slides {display: block;}
 
 /* 404 Error Page
 ====================================*/
-#not-found { margin: 50px 0 75px 0; }
+#not-found {
+    margin: 50px auto 75px auto;
+}
 
-#not-found h2 {
-	text-align: center;
-	font-size: 210px;
-	line-height: 210px;
-	font-weight: normal;
-	letter-spacing: -5px;
+#not-found img {
+    margin: auto;
 }
 
 #not-found p {
+    margin-top: 10px;
 	text-align: center;
 	font-size: 28px;
 	line-height: 36px;
 }
-
-#not-found i {
-	color: #ddd;
-	font-size: 200px;
-}
-
 
 /* Dropcaps
 ====================================*/

@@ -44,7 +44,7 @@
     <header id="header">
         <!-- Logo -->
         <div id="logo">
-            <h1><a href="#"><img src="images/logo.png" alt="UCDavis CSSA"/></a></h1>
+            <h1><a href="/"><img src="images/logo.png" alt="UCDavis CSSA"/></a></h1>
             <div id="tagline">加利福尼亚大学戴维斯分校<br />中国学生学者联合会</div>
             <div class="clearfix"></div>
         </div>

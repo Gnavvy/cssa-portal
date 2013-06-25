@@ -57,7 +57,7 @@
             <section class="jcarousel recent-work-jc">
                 <ul>
                     <li class="four columns">
-                        <a href="single-project.html" class="portfolio-item">
+                        <a href="404.php" class="portfolio-item">
                             <figure>
                                 <img src="images/event/newcommittee.jpg" alt=""/>
                                 <figcaption class="item-description">
@@ -69,7 +69,7 @@
                     </li>
 
                     <li class="four columns">
-                        <a href="single-project.html" class="portfolio-item">
+                        <a href="404.php" class="portfolio-item">
                             <figure>
                                 <img src="images/event/event-02.jpg" alt=""/>
                                 <figcaption class="item-description">
@@ -81,7 +81,7 @@
                     </li>
 
                     <li class="four columns">
-                        <a href="single-project.html" class="portfolio-item">
+                        <a href="404.php" class="portfolio-item">
                             <figure>
                                 <img src="images/event/event-03.jpg" alt=""/>
                                 <figcaption class="item-description">
@@ -93,7 +93,7 @@
                     </li>
 
                     <li class="four columns">
-                        <a href="single-project.html" class="portfolio-item">
+                        <a href="404.php" class="portfolio-item">
                             <figure>
                                 <img src="images/event/event-04.jpg" alt=""/>
                                 <figcaption class="item-description">
@@ -105,7 +105,7 @@
                     </li>
 
                     <li class="four columns">
-                        <a href="single-project.html" class="portfolio-item">
+                        <a href="404.php" class="portfolio-item">
                             <figure>
                                 <img src="images/event/event-05.jpg" alt=""/>
                                 <figcaption class="item-description">
@@ -117,7 +117,7 @@
                     </li>
 
                     <li class="four columns">
-                        <a href="single-project.html" class="portfolio-item">
+                        <a href="404.php" class="portfolio-item">
                             <figure>
                                 <img src="images/event/event-06.jpg" alt=""/>
                                 <figcaption class="item-description">
@@ -129,7 +129,7 @@
                     </li>
 
                     <li class="four columns">
-                        <a href="single-project.html" class="portfolio-item">
+                        <a href="404.php" class="portfolio-item">
                             <figure>
                                 <img src="images/event/event-07.jpg" alt=""/>
                                 <figcaption class="item-description">
@@ -185,6 +185,3 @@
 
 <!-- Footer -->
 <?php require_once('footer.php'); ?>
-
-</body>
-</html>
