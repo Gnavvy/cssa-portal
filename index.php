@@ -7,30 +7,28 @@
     <section id="layerslider-container">
         <div id="layerslider" style="width: 1020px; height: 450px; margin: 0 auto;">
 
-            <!-- Slide 1 -->
-            <article class="ls-layer" style="slidedelay: 10000;">
-                <img src="images/slide-01.jpg" class="ls-bg" alt="">
-                <img class="ls-s4" src="images/slide-01a.png" style="top: 30px; left: 120px; slidedirection: bottom; slideoutdirection: bottom; durationin: 400; durationout: 1000; easingin: easeOutExpo; delayin: 1000;" alt=""/>
-                <h3 class="ls-s1 caption-color" style="top: 357px; left: 756px; slidedirection: right; slideoutdirection: right; durationin: 400; durationout: 1000; easingin: easeOutExpo; delayin: 1000;">Powerful HTML5 Template</h3>
-            </article>
+            <!--&lt;!&ndash; Slide 1 &ndash;&gt;-->
+            <!--<article class="ls-layer" style="slidedelay: 10000;">-->
+                <!--<img src="images/slide1.jpg" class="ls-bg" alt="">-->
+                <!--<img class="ls-s4" src="images/slide-01a.png" style="top: 30px; left: 120px; slidedirection: bottom; slideoutdirection: bottom; durationin: 400; durationout: 1000; easingin: easeOutExpo; delayin: 1000;" alt=""/>-->
+                <!--<h3 class="ls-s1 caption-color" style="top: 357px; left: 756px; slidedirection: right; slideoutdirection: right; durationin: 400; durationout: 1000; easingin: easeOutExpo; delayin: 1000;">Powerful HTML5 Template</h3>-->
+            <!--</article>-->
 
             <!--&lt;!&ndash; Slide 2 &ndash;&gt;-->
             <!--<article class="ls-layer" style="slidedelay: 10000; slidedirection: top;">-->
-                <!--<img src="images/slide-02.png" class="ls-bg">-->
+                <!--<img src="images/slide2.jpg" class="ls-bg">-->
                 <!--<img class="ls-s4" src="images/slide-02a.png" style="top: 50%; left: 260px; slidedirection: left; slideoutdirection: left; durationin: 800; durationout: 800; easingin : easeOutExpo; delayin : 1200;" alt=""/>-->
                 <!--<img class="ls-s4" src="images/slide-02b.png" style="top: 50%; left: 544px; slidedirection: right; slideoutdirection: right; durationin: 800; durationout: 800; easingin : easeOutExpo; delayin : 1200;" alt=""/>-->
-
                 <!--<img class="ls-s4" src="images/slide-02c.png" style="top: 230px; left: 494px; slidedirection: top; durationin: 800; durationout: 800; easingin : easeOutExpo; delayin : 1200;" alt=""/>-->
-
                 <!--<img class="ls-s2" src="images/slide-02d.png" style="top: 15px; left: -142px; slidedirection: left; slideoutdirection: left; durationin: 600; durationout: 1000; easingin: easeOutExpo; delayin: 1200;" alt=""/>-->
                 <!--<img class="ls-s2" src="images/slide-02e.png" style="top: 15px; left: 784px; slidedirection: right; slideoutdirection: right; durationin: 600; durationout: 1000; easingin: easeOutExpo; delayin: 1200;" alt=""/>-->
             <!--</article>-->
 
-            <!--&lt;!&ndash; Slide 3 &ndash;&gt;-->
-            <!--<article class="ls-layer" style="slidedelay: 7000;">-->
-                <!--<img src="images/slide-03.jpg" class="ls-bg" alt="">-->
-                <!--<h3 class="ls-s1 caption-transparent" style="top: 357px; left: 40px;">Image in Slide Directly</h3>-->
-            <!--</article>-->
+            <!-- Slide 3 -->
+            <article class="ls-layer" style="slidedelay: 7000;">
+                <img src="images/slide3.jpg" class="ls-bg" alt="">
+                <h3 class="ls-s1 caption-transparent" style="top: 357px; left: 40px;">2013 体育月 - 足球决赛</h3>
+            </article>
 
         </div>
     </section>

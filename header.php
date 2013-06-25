@@ -11,7 +11,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/colors/blue.css" id="colors">
+    <link rel="stylesheet" href="css/colors/davis.css" id="colors">
 
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -65,5 +65,6 @@
         <li><a href="connection.php"><i class="halflings white shopping-cart"></i> 外联合作 </a></li>
         <li><a href="contact.php"><i class="halflings white envelope"></i> 联系我们 </a></li>
     </ul>
+
 </nav>
 <div class="clearfix"></div>

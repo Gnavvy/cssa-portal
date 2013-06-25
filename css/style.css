@@ -20,7 +20,6 @@
 	background: #169fe6;
 	height: 5px;
 	display: block;
-    /*margin-top: -21px;*/
 }
 
 #header { min-height: 120px; }
@@ -179,8 +178,7 @@
 
 
 /* Shadows */
-.left-corner,
-.right-corner {
+.left-corner, .right-corner {
 	display:block;
 	width: 0px;
 	height: 0px;
@@ -248,14 +246,14 @@
 
 .menu > li > a {
 	color:#fff;
-	font-weight: 400;
+	font-weight: bold;
 	font-size: 15px;
 	line-height:18px;
 	padding: 15px 20px 16px 20px;
 }
 
 .menu > li:hover > a {
-	background-color: #707070;
+	background-color: #C99900;
 	border-left:none;
 	padding-left:21px;
 	border-right:1px solid #707070;
@@ -634,11 +632,11 @@ ul.cols1 p a, ul.cols2 p a, ul.cols3 p a, ul.cols4 p a, ul.cols5 p a {
 .caption-gray,
 .caption-color,
 .caption-transparent {
-	padding: 18px 22px;
+	padding: 16px 22px;
 	color: #fff;
 	font-size: 14px;
 	font-weight: 600;
-	border-radius: 2px;
+	border-radius: 3px;
 	box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.1);
 }
 
@@ -2077,12 +2075,12 @@ input[type="submit"] {float: left;}
 .button.medium {padding: 9px 18px; font-size: 14px;}
 
 .button.gray {color: #fff;background: #4c4c4c; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.4);}
-.button.gray:hover {background:#169fe6; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.2);}
+.button.gray:hover {background: #169fe6; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.2);}
 
 .button.light {color:#fff; background:#aaa; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.15);}
-.button.light:hover {background:#169fe6; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.2);}
+.button.light:hover {background: #169fe6; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.2);}
 
-.button.color {color:#fff; background:#169fe6; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.15); }
+.button.color {color:#fff; background: #169fe6; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.15); }
 .button.color:hover {background:#aaa; box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.15); }
 
 /* Input Button */
@@ -2091,7 +2089,7 @@ input[type="submit"],
 input[type="button"]:focus,
 input[type="submit"]:focus {
 	color:#fff;
-	background:#169fe6;
+	background: #169fe6;
 	padding: 9px 11px;
 	border: none !important;
 }

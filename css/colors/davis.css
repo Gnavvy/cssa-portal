@@ -1,8 +1,10 @@
 /* =================================================================== */
-/* Blue #169fe6
+/* Davis #169fe6
 ====================================================================== */
 
 #top-line { background: #123762; }
+#navigation { background-color: #123762; }
+.menu > li:hover > a { background-color: #C99900; border-right:1px solid #C99900; }
 #current { background-color: #123762; border-right: 1px solid #123762; }
 .ls-fullwidth .ls-nav-next:hover,
 .ls-fullwidth .ls-nav-prev:hover { background-color: #123762; }
