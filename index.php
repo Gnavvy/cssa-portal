@@ -59,7 +59,7 @@
                     <li class="four columns">
                         <a href="single-project.html" class="portfolio-item">
                             <figure>
-                                <img src="images/portfolio/portfolio-01.jpg" alt=""/>
+                                <img src="images/event/newcommittee.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013-2014 执委会换届选举</h5>
                                     <span>what to put here?</span>
@@ -71,7 +71,7 @@
                     <li class="four columns">
                         <a href="single-project.html" class="portfolio-item">
                             <figure>
-                                <img src="images/portfolio/portfolio-02.jpg" alt=""/>
+                                <img src="images/event/event-02.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 体育月活动</h5>
                                     <span>what to put here?</span>
@@ -83,7 +83,7 @@
                     <li class="four columns">
                         <a href="single-project.html" class="portfolio-item">
                             <figure>
-                                <img src="images/portfolio/portfolio-03.jpg" alt=""/>
+                                <img src="images/event/event-03.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 卡拉OK大赛</h5>
                                     <span>what to put here?</span>
@@ -95,7 +95,7 @@
                     <li class="four columns">
                         <a href="single-project.html" class="portfolio-item">
                             <figure>
-                                <img src="images/portfolio/portfolio-04.jpg" alt=""/>
+                                <img src="images/event/event-04.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 新年联欢会</h5>
                                     <span>what to put here?</span>
@@ -107,7 +107,7 @@
                     <li class="four columns">
                         <a href="single-project.html" class="portfolio-item">
                             <figure>
-                                <img src="images/portfolio/portfolio-05.jpg" alt=""/>
+                                <img src="images/event/event-05.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 中国文化节</h5>
                                     <span>what to put here?</span>
@@ -119,7 +119,7 @@
                     <li class="four columns">
                         <a href="single-project.html" class="portfolio-item">
                             <figure>
-                                <img src="images/portfolio/portfolio-06.jpg" alt=""/>
+                                <img src="images/event/event-06.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 中秋国庆晚会</h5>
                                     <span>what to put here?</span>
@@ -131,7 +131,7 @@
                     <li class="four columns">
                         <a href="single-project.html" class="portfolio-item">
                             <figure>
-                                <img src="images/portfolio/portfolio-07.jpg" alt=""/>
+                                <img src="images/event/event-07.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 新生Orientation</h5>
                                     <span>what to put here?</span>

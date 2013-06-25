@@ -56,7 +56,7 @@
 			<div class="four columns isotope-item photography architecture technology">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-01.jpg" alt=""/>
+						<img src="images/event/event-01.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Time Is Running Out</h5>
 							<span>Photography</span>
@@ -69,7 +69,7 @@
 			<div class="four columns isotope-item architecture identity">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-02.jpg" alt=""/>
+						<img src="images/event/event-02.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Seeds of Growth</h5>
 							<span>Architecture</span>
@@ -82,7 +82,7 @@
 			<div class="four columns isotope-item identity photography">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-03.jpg" alt=""/>
+						<img src="images/event/event-03.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Beautiful Flowers</h5>
 							<span>Identity</span>
@@ -95,7 +95,7 @@
 			<div class="four columns isotope-item identity">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-04.jpg" alt=""/>
+						<img src="images/event/event-04.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Poppy Flower</h5>
 							<span>Identity</span>
@@ -108,7 +108,7 @@
 			<div class="four columns isotope-item photography architecture technology">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-05.jpg" alt=""/>
+						<img src="images/event/event-05.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Death Valley</h5>
 							<span>Photography</span>
@@ -121,7 +121,7 @@
 			<div class="four columns isotope-item photography technology">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-06.jpg" alt=""/>
+						<img src="images/event/portfolio-06.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Digital World</h5>
 							<span>Technology</span>
@@ -134,7 +134,7 @@
 			<div class="four columns isotope-item architecture technology">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-07.jpg" alt=""/>
+						<img src="images/event/portfolio-07.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>American Football</h5>
 							<span>Architecture</span>
@@ -147,7 +147,7 @@
 			<div class="four columns isotope-item identity architecture">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-08.jpg" alt=""/>
+						<img src="images/event/portfolio-08.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Casual Shoes</h5>
 							<span>Identity</span>
@@ -160,7 +160,7 @@
 			<div class="four columns isotope-item photography architecture">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-09.jpg" alt=""/>
+						<img src="images/event/portfolio-09.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Winter Mountains</h5>
 							<span>Photography</span>
@@ -173,7 +173,7 @@
 			<div class="four columns isotope-item identity photography technology">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-10.jpg" alt=""/>
+						<img src="images/event/portfolio-10.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Fruits in Basket</h5>
 							<span>Architecture</span>
@@ -186,7 +186,7 @@
 			<div class="four columns isotope-item identity">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-11.jpg" alt=""/>
+						<img src="images/event/portfolio-11.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Wireless Keyboard</h5>
 							<span>Identity</span>
@@ -199,7 +199,7 @@
 			<div class="four columns isotope-item photography architecture">
 				<a href="single-project.html" class="portfolio-item isotope">
 					<figure>
-						<img src="images/portfolio/portfolio-12.jpg" alt=""/>
+						<img src="images/event/portfolio-12.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Mountain Biking</h5>
 							<span>Photography</span>
