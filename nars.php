@@ -21,13 +21,22 @@
                 error_reporting(E_ALL);
 
                 $dbc = mysqli_connect("localhost", "root", "root", "cssa");
-                $query = "SELECT `email` FROM `newbie` WHERE `gender` = 0";
+
+                $query = "
+                    SELECT
+                        COUNT(`date`) as count,
+                        `date` as date
+                    FROM
+                        `newbie`
+                    WHERE
+                        `year` = 2013
+                    GROUP BY `date`
+                ";
+
                 $result = mysqli_query($dbc, $query);
 
                 while ($row = mysqli_fetch_array($result)) {
-                    $email = $row["email"];
-                    echo $email;
-                    echo "<br />";
+                    echo $row["date"] . "\t|\t" . $row["count"] . "<br />";
                 };
             ?>
 
