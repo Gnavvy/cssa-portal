@@ -6,6 +6,7 @@
 
 <!-- 960 Container -->
 <div class="container floated">
+
 	<!-- Sidebar -->
 	<div class="four floated sidebar left">
 		<aside class="sidebar">
@@ -42,7 +43,6 @@
                 </div>
 			</nav>
 
-
 		</aside>
 	</div>
 	<!-- Sidebar / End -->
@@ -64,13 +64,6 @@
 
             <p>1. 注册使用NARS系统</p>
 			<p>NARS（Newcommer Arrival Registration System）系统帮助我们统计新生到达信息，更好的安排接机服务。CSSA将在每年五月至六月期间公布2-3个接机日期（一般在9月初），请您根据您的日程选择适合您的接机日期，预定机票，并且在NARS注册您的个人信息。在接机日CSSA会派专人去旧金山国际机场（SFO）等候，并且帮助预定机场巴士（Airporter）。SFO到Davis的Airporter费用一般在$30-$40每人（每年会略有增长）。如果您在非接机日单独到达也可以联系Airporter (http://www.davisairporter.com/)，不过费用相对会贵些。另外还有其他方式可供选择（Public ground transportation from Sacramento and San Francisco to Davis）。CSSA强烈推荐大家在有接机服务的日期到达。</p>
-
-
-            <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-            </ul>
 
 			<br />
 			<h3>Accordions</h3>

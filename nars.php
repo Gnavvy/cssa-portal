@@ -1,5 +1,3 @@
-
-
 <!-- Header -->
 <?php require_once('header.php'); ?>
 
@@ -9,41 +7,44 @@
 <!-- Page Content -->
 <div class="page-content">
 
-	<!-- 960 Container -->
 	<div class="container">
 
-		<!-- Sixteen Columns -->
 		<div class="sixteen columns">
+            <div id="skill-bars">
+                <?php
+                    ini_set('display_errors', 'On');
+                    error_reporting(E_ALL);
 
+                    $dbc = mysqli_connect("localhost", "root", "root", "cssa");
 
-            <?php
-                ini_set('display_errors', 'On');
-                error_reporting(E_ALL);
+                    $query_date_count = "
+                        SELECT      COUNT(`date`) as count, `date` as date
+                        FROM        `newbie`
+                        WHERE       `date` > 20130101
+                        GROUP BY    `date`
+                        ORDER BY    count DESC
+                    ";
 
-                $dbc = mysqli_connect("localhost", "root", "root", "cssa");
+                    $result_date_count = mysqli_query($dbc, $query_date_count);
 
-                $query = "
-                    SELECT
-                        COUNT(`date`) as count,
-                        `date` as date
-                    FROM
-                        `newbie`
-                    WHERE
-                        `year` = 2013
-                    GROUP BY `date`
-                ";
+                    $max_date_count = 1;
+                    while ($entry = mysqli_fetch_array($result_date_count)) {
+                        $max_date_count = $entry["count"] < $max_date_count ? $max_date_count : $entry["count"];
+                    };
+                    mysqli_data_seek($result_date_count, 0);
 
-                $result = mysqli_query($dbc, $query);
-
-                while ($row = mysqli_fetch_array($result)) {
-                    echo $row["date"] . "\t|\t" . $row["count"] . "<br />";
-                };
-            ?>
-
+                    while ($entry = mysqli_fetch_array($result_date_count)) {
+                        if ($entry["count"] < 10) continue;
+                        $percentage = $entry["count"];
+                        echo "<div class=\"skill-bar\">";
+                            echo "<div class=\"skill-bar-content\" data-percentage=\"$percentage\"></div>";
+                            echo "<span class=\"skill-title\">" . $entry["date"] . "</span>";
+                        echo "</div>";
+                    };
+                ?>
+            </div>
 		</div>
-
 	</div>
-	<!-- 960 Container / End -->
 
 </div>
 <!-- Page Content / End -->
