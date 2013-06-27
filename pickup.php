@@ -93,15 +93,43 @@
             <div class="line" style="margin: 40px auto 40px -40px"></div>
 
             <section id="pickup-info">
-                <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                    <label for="first-name">First Name</label>
-                    <input name="first-name" type="text" id="first-name"/>
+                <form class="form-horizontal" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <form class="form-horizontal">
+                        <div class="control-group">
+                            <label class="control-label" for="inputEmail">Email</label>
+                            <!--<div class="controls">-->
+                                <input type="text" id="inputEmail" placeholder="Email">
+                            <!--</div>-->
+                        </div>
+                      <div class="control-group">
+                        <label class="control-label" for="inputPassword">Password</label>
+                        <div class="controls">
+                          <input type="password" id="inputPassword" placeholder="Password">
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <div class="controls">
+                          <label class="checkbox">
+                            <input type="checkbox"> Remember me
+                          </label>
+                          <button type="submit" class="btn">Sign in</button>
+                        </div>
+                      </div>
+                    </form>
+
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input name="first-name" type="text" id="first-name"/>
+                    </div>
 
                     <label for="last-name">Last Name</label>
                     <input name="last-name" type="text" id="last-name"/>
 
-                    <label for="gender">Gender</label>
-                    <input name="gender" type="text" id="gender"/>
+                    <div>
+                        <label for="gender">Gender</label>
+                        <input name="gender" type="radio" value="0">Female</input>
+                        <input name="gender" type="radio" value="1">Male</input>
+                    </div>
 
                     <label for="hometown">Hometown</label>
                     <input name="hometown" type="text" id="hometown"/>
@@ -119,7 +147,11 @@
                     <input name="ucd-major" type="text" id="ucd-major"/>
 
                     <label for="departure-airport">Departure Airport</label>
-                    <input name="departure-airport" type="text" id="departure-airport"/>
+                    <select name="departure-airport">
+                        <option value="0" selected>Beijing Capital International Airport - PEK</option>
+                        <option value="1">Shanghai Pudong International Airport - PVG</option>
+                        <option value="2">Other</option>
+                    </select>
 
                     <label for="arrival-airport">Arrival Airport</label>
                     <input name="arrival-airport" type="text" id="arrival-airport"/>
