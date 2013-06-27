@@ -4,26 +4,6 @@
 <!-- Content -->
 <div id="content">
 
-<!-- 960 Container -->
-<div class="container floated">
-
-	<div class="sixteen floated page-title">
-
-		<h2>Portfolio <span>/ 3 Columns</span></h2>
-
-		<nav id="breadcrumbs">
-			<ul>
-				<li>You are here:</li>
-				<li><a href="index.html">Home</a></li>
-				<li>Portfolio</li>
-			</ul>
-		</nav>
-
-	</div>
-
-</div>
-<!-- 960 Container / End -->
-
 <!-- Page Content -->
 <div class="page-content portfolio">
 
@@ -55,9 +35,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item photography architecture technology">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event-01.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Time Is Running Out</h5>
 							<span>Photography</span>
@@ -68,9 +48,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item architecture identity">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event-02.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Seeds of Growth</h5>
 							<span>Architecture</span>
@@ -81,9 +61,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item identity photography">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event-03.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Beautiful Flowers</h5>
 							<span>Identity</span>
@@ -94,9 +74,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item identity">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event-04.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Poppy Flower</h5>
 							<span>Identity</span>
@@ -107,9 +87,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item photography architecture technology">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event-05.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Death Valley</h5>
 							<span>Photography</span>
@@ -120,9 +100,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item photography technology">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/portfolio-06.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Digital World</h5>
 							<span>Technology</span>
@@ -133,9 +113,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item identity architecture technology">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/portfolio-07.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>American Football</h5>
 							<span>Architecture</span>
@@ -146,9 +126,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item identity architecture">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/portfolio-08.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Casual Shoes</h5>
 							<span>Identity</span>
@@ -159,9 +139,9 @@
 
 			<!-- 1/3 Column -->
 			<div class="one-third column isotope-item photography architecture">
-				<a href="single-project.html" class="portfolio-item isotope">
+				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/portfolio-09.jpg" alt=""/>
+						<img src="images/event/event.jpg" alt=""/>
 						<figcaption class="item-description">
 							<h5>Winter Moutnains</h5>
 							<span>Photography</span>
@@ -175,7 +155,6 @@
 
 	</div>
 	<!-- 960 Container / End -->
-
 
 </div>
 <!-- Page Content / End -->

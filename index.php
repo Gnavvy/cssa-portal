@@ -71,7 +71,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event-02.jpg" alt=""/>
+                                <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 体育月活动</h5>
                                     <span>what to put here?</span>
@@ -83,7 +83,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event-03.jpg" alt=""/>
+                                <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 卡拉OK大赛</h5>
                                     <span>what to put here?</span>
