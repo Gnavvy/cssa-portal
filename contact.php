@@ -59,7 +59,7 @@
 					zoom: 12,
 					markers: [
 						{
-							address: 'Davis', // Your Adress Here
+							address: 'Davis', // Your Address Here
 							html: '',
 							popup: false
 						}
