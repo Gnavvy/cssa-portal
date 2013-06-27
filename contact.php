@@ -101,7 +101,7 @@
 
 						</fieldset>
 
-						<input type="submit" class="submit" id="submit" value="Send Message" />
+						<input type="submit" class="submit" id="submit" value="Send Message"/>
 						<div class="clearfix"></div>
 
 					</form>

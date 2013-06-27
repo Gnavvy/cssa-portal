@@ -146,13 +146,13 @@
 /* Menu
 ====================================*/
 #navigation {
-	height: 49px;
+	height: 48px;
 	width: 1040px;
 	margin-left: -10px;
 	background-color: #4c4c4c;
 	float: left;
 	left: 1px;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    /*box-shadow: 0 3px 3px rgba(0,0,0,0.2);*/
 }
 
 /* Style Without Shadows */
@@ -161,9 +161,7 @@
 .style-2 { width: 1020px !important; margin-left: 0 !important; }
 .style-2 ul li:first-child { margin-left: 1px !important; }
 
-.js .selectnav {
-	display: none;
-}
+.js .selectnav { display: none; }
 
 .menu i.halflings { margin: 1px 2px 0 -2px; }
 
@@ -181,11 +179,11 @@
 /* Shadows */
 .left-corner, .right-corner {
 	display:block;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-style: solid;
 	position: relative;
-	top: 49px;
+	top: 48px;
 	float: left;
 	opacity: 0.58;
 	filter:alpha(opacity=58);
@@ -250,7 +248,7 @@
 	font-weight: bold;
 	font-size: 15px;
 	line-height:18px;
-	padding: 15px 20px 16px 20px;
+	padding: 15px 20px 15px 20px;
 }
 
 .menu > li:hover > a {
@@ -279,7 +277,6 @@ ul.menu li a {
 
 .menu > li > a { border-right:1px solid #666; }
 .menu > li > a:hover { border-right:1px solid #707070; margin: 0 0 0 -1px; }
-
 .menu > li > a img, .menu li > ul > li > a img {
 	border:0;
 	margin-right:7px;
@@ -1134,7 +1131,7 @@ p.margin { margin: 0 0 25px 0; }
 }
 
 .widget-search input {
-	width: 200px;
+	width: 100%;
 	color: #888;
 }
 
@@ -2038,8 +2035,7 @@ ul.option-set li a:active { background: #fff; }
 /* Buttons
 ====================================*/
 .button,
-input[type="button"],
-input[type="submit"] {
+input[type="button"], input[type="submit"] {
 	padding: 5px 14px 7px 14px;
 	display: inline-block;
 	border: 0;
@@ -2058,8 +2054,7 @@ input[type="submit"] {
 	letter-spacing: -0.2px;
 }
 
-input[type="button"],
-input[type="submit"] {float: left;}
+input[type="button"], input[type="submit"] { float: left; }
 
 .button i { margin: 0 2px 0 -1px; height: 14px; }
 .button i.halflings { margin: 2px 0px 0 -1px; }
@@ -2076,10 +2071,8 @@ input[type="submit"] {float: left;}
 .button.color:hover {background:#aaa; box-shadow: inset 0 -1px 0 0 rgba(0,0,0, 0.15); }
 
 /* Input Button */
-input[type="button"],
-input[type="submit"],
-input[type="button"]:focus,
-input[type="submit"]:focus {
+input[type="button"], input[type="button"]:focus,
+input[type="submit"], input[type="submit"]:focus {
 	color:#fff;
 	background: #169fe6;
 	padding: 9px 11px;

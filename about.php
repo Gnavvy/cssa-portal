@@ -40,9 +40,7 @@
 		<div class="team-about"><p>Ph.D. student in Biomedical Engineering</p></div>
 	</div>
 
-    <div class="clearfix"></div>
-    <br />
-
+    <div class="clearfix"></div> <br />
 
     <div class="one-third column">
 		<img src="images/committee/thsong.jpg" alt=""/>
