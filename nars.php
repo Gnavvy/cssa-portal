@@ -1,44 +1,50 @@
-<?php
-    $con = mysqli_connect("localhost", "root", "root", "nars);
-    if (mysqli_connect_errno($con)) {
-        echo "Failed to connect to MySQL: " . mysqli_connect_error();
-    }
 
-    $query = "SELECT COUNT(date) AS headcount, date AS date FROM newbie GROUP BY date";
-    if (mysqli_query($con, $query)) {
-        echo "Database my_db created successfully";
-    }
-else
-  {
-  echo "Error creating database: " . mysqli_error($con);
-  }
-?>
-    $result = mysqli_query($con, $query);
 
-    echo "<table border='1'>
-        <tr>
-        <th>headcount</th>
-        <th>date</th>
-        </tr>";
+<!-- Header -->
+<?php require_once('header.php'); ?>
 
-        while($row = mysqli_fetch_array($result)) {
-            echo "<tr>";
-            echo "<td>" . $row['headcount'] . "</td>";
-            echo "<td>" . $row['date'] . "</td>";
-            echo "</tr>";
-        }
-    echo "</table>";
+<!-- Content -->
+<div id="content">
 
-    mysqli_close($con);
-?>
+<!-- Page Content -->
+<div class="page-content">
 
-<?php
-// Create connection
-$con=mysqli_connect("example.com","peter","abc123","my_db");
+	<!-- 960 Container -->
+	<div class="container">
 
-// Check connection
-if (mysqli_connect_errno($con))
-  {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }
-?>
+		<!-- Sixteen Columns -->
+		<div class="sixteen columns">
+
+
+            <?php
+                ini_set('display_errors', 'On');
+                error_reporting(E_ALL);
+
+                $dbc = mysqli_connect("localhost", "root", "root", "cssa");
+                $query = "SELECT `email` FROM `newbie` WHERE `gender` = 0";
+                $result = mysqli_query($dbc, $query);
+
+                while ($row = mysqli_fetch_array($result)) {
+                    $email = $row["email"];
+                    echo $email;
+                    echo "<br />";
+                };
+            ?>
+
+		</div>
+
+	</div>
+	<!-- 960 Container / End -->
+
+</div>
+<!-- Page Content / End -->
+
+
+</div>
+<!-- Content / End -->
+
+</div>
+<!-- Wrapper / End -->
+
+<!-- Footer -->
+<?php require_once('footer.php'); ?>

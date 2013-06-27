@@ -7,9 +7,9 @@
     <section id="layerslider-container">
         <div id="layerslider" style="width: 1020px; height: 450px; margin: 0 auto;">
 
-            <!--&lt;!&ndash; Slide 1 &ndash;&gt;-->
+            <!-- Slide 1 -->
             <!--<article class="ls-layer" style="slidedelay: 10000;">-->
-                <!--<img src="images/slide1.jpg" class="ls-bg" alt="">-->
+                <!--<img src="images/slide-01.jpg" class="ls-bg" alt="">-->
                 <!--<img class="ls-s4" src="images/slide-01a.png" style="top: 30px; left: 120px; slidedirection: bottom; slideoutdirection: bottom; durationin: 400; durationout: 1000; easingin: easeOutExpo; delayin: 1000;" alt=""/>-->
                 <!--<h3 class="ls-s1 caption-color" style="top: 357px; left: 756px; slidedirection: right; slideoutdirection: right; durationin: 400; durationout: 1000; easingin: easeOutExpo; delayin: 1000;">Powerful HTML5 Template</h3>-->
             <!--</article>-->
