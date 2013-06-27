@@ -34,28 +34,32 @@
         <h4> 主席团 </h4><br />
 	</div>
 
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/committee/kgong.jpg" alt=""/>
 		<div class="team-name"><h5>Gong, Kuang</h5> <span>President</span></div>
-		<div class="team-about"><p>Biomedical Engineering</p></div>
+		<div class="team-about"><p>Ph.D. student in Biomedical Engineering</p></div>
 	</div>
 
-    <div class="four columns">
+    <div class="clearfix"></div>
+    <br />
+
+
+    <div class="one-third column">
 		<img src="images/committee/thsong.jpg" alt=""/>
 		<div class="team-name"><h5>Song, Tianhong</h5> <span>Executive Vice President</span></div>
-		<div class="team-about"><p>Computer Science</p></div>
+		<div class="team-about"><p>Ph.D. student in Computer Science</p></div>
 	</div>
 
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/committee/wlzhou.jpg" alt=""/>
 		<div class="team-name"><h5>Zhou, Weilong</h5> <span>Vice President</span></div>
-		<div class="team-about"><p>Managerial Economics </p></div>
+		<div class="team-about"><p>Senior student in Managerial Economics</p></div>
 	</div>
 
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/committee/ywang.jpg" alt=""/>
 		<div class="team-name"><h5>Wang, Yang</h5> <span>Vice President</span></div>
-		<div class="team-about"><p>Computer Science</p></div>
+		<div class="team-about"><p>Ph.D. student in Computer Science</p></div>
 	</div>
 
 </div>
@@ -65,30 +69,23 @@
 <div class="container">
     <div class="sixteen colu/about.php:66mns"> <h4> 学生学者事务部 </h4><br /> </div>
 
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Hu, Yufei</h5> <span>Director, Division of Student and Scholar Affairs</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
 
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Song, Tianhong</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
+    <div class="one-third column">
+		<img src="images/committee/bsqian.jpg" alt=""/>
+		<div class="team-name"><h5>Qian, Binsen</h5> <span>Vice Director, Division of Student and Scholar Affairs</span></div>
+		<div class="team-about"><p>Ph.D. student in Mechanical Engineering</p></div>
 	</div>
 
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Li, Jiannan</h5> <span>Vice Director, Division of Student and Scholar Affairs</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
 </div>
 
 <div class="line" style="margin: 25px auto 25px auto"></div>
@@ -97,28 +94,22 @@
 
     <div class="sixteen columns"> <h4> 文体部 </h4><br /> </div>
 
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Jiang, Ahao</h5> <span>Director, Division of Recreational Activities</span></div>
+		<div class="team-about"><p>Economics</p></div>
+	</div>
+
+    <div class="one-third column">
+		<img src="images/about-01.jpg" alt=""/>
+		<div class="team-name"><h5>Li, Guozhen</h5> <span>Vice Director, Division of Recreational Activities</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
 
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
+		<div class="team-name"><h5>Hu, Yanan</h5> <span>Vice Director, Division of Recreational Activities</span></div>
+		<div class="team-about"><p>International Relations </p></div>
 	</div>
 
 </div>
@@ -126,161 +117,85 @@
 <div class="line" style="margin: 25px auto 25px auto"></div>
 
 <div class="container">
-
     <div class="sixteen columns"> <h4> 宣传部 </h4><br /> </div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+    <div class="one-third column">
+		<img src="images/committee/qwfan.jpg" alt=""/>
+		<div class="team-name"><h5>Fan, Qingwen</h5> <span>Director, Division of Publicity</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Zeng, Jialin</h5> <span>Vice Director, Division of Publicity</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Gao, Qi</h5> <span>Vice Director, Division of Publicity</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
 </div>
 
 <div class="line" style="margin: 25px auto 25px auto"></div>
 
 <div class="container">
-
     <div class="sixteen columns"> <h4> 外联部 </h4><br /> </div>
-
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Mo, Qi</h5> <span>Director, Division of Public Relations</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Zeng, Yunze</h5> <span>Vice Director, Division of Public Relations</span></div>
+		<div class="team-about"><p>Ph.D. student in Computer Science</p></div>
+	</div>
+    <div class="one-third column">
+		<img src="images/about-01.jpg" alt=""/>
+		<div class="team-name"><h5>Ling, Shuyang</h5> <span>Vice Director, Division of Public Relations</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
 </div>
 
 <div class="line" style="margin: 25px auto 25px auto"></div>
 
 <div class="container">
-
     <div class="sixteen columns"> <h4> 信息技术部 </h4><br /> </div>
-
-    <div class="four columns">
+    <div class="one-third column">
+		<img src="images/committee/ywang.jpg" alt=""/>
+		<div class="team-name"><h5>Wang, Yang</h5> <span>Director, Division of Informational and Technology</span></div>
+		<div class="team-about"><p>Ph.D. student in Computer Science</p></div>
+	</div>
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Liu, Guangyao</h5> <span>Vice Director, Division of Informational and Technology</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Chai, Huajun</h5> <span>Vice Director, Division of Informational and Technology</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
 </div>
 
 <div class="line" style="margin: 25px auto 25px auto"></div>
 
 <div class="container">
-
-    <div class="sixteen columns"> <h4> 秘书处 </h4><br /> </div>
-
-    <div class="four columns">
+    <div class="sixteen columns"> <h4> 秘书处 & 财务 </h4><br /> </div>
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Ren, Xiaoxin</h5> <span>Secretary General</span></div>
+		<div class="team-about"><p>Ph.D. student in Electric Computer Engineering</p></div>
+	</div>
+    <div class="one-third column">
+		<img src="images/about-01.jpg" alt=""/>
+		<div class="team-name"><h5>Yang, Jason</h5> <span>Treasurer</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
+    <div class="one-third column">
 		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
+		<div class="team-name"><h5>Li, Zhi</h5> <span>Assistant to President</span></div>
 		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
 	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-</div>
-
-<div class="line" style="margin: 25px auto 25px auto"></div>
-
-<div class="container">
-
-    <div class="sixteen columns"> <h4> 主席助理 </h4><br /> </div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
-    <div class="four columns">
-		<img src="images/about-01.jpg" alt=""/>
-		<div class="team-name"><h5>Gong, Kuang</h5> <span>Chief Executive Officer / CEO</span></div>
-		<div class="team-about"><p>Consectetur dolor ipsum quiam dolor adipisci velit, aenean at lorem vel est posuere feugiat sed quia noneas numquasa mode tempora incidunt.</p></div>
-	</div>
-
 </div>
 
 </div>
