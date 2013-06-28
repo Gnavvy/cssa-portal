@@ -43,12 +43,32 @@
 <!-- Header -->
 <div class="container">
     <header id="header">
-        <!-- Logo -->
-        <div id="logo">
-            <h1><a href="/"><img src="images/logo.png" alt="UCDavis CSSA"/></a></h1>
-            <div id="tagline">加利福尼亚大学戴维斯分校<br />中国学生学者联合会</div>
-            <div class="clearfix"></div>
+        <div class="ten columns">
+            <div id="logo">
+                <h1><a href="/"><img src="images/logo.png" alt="UCDavis CSSA"/></a></h1>
+                <div id="tagline">加州大学戴维斯分校<br />中国学生学者联合会</div>
+                <div class="clearfix"></div>
+            </div>
         </div>
+
+		<div class="six columns">
+			<!--<ul class="social-icons">-->
+				<!--<li class="twitter"><a href="#">Twitter</a></li>-->
+				<!--<li class="facebook"><a href="#">Facebook</a></li>-->
+				<!--<li class="dribbble"><a href="#">Dribbble</a></li>-->
+				<!--<li class="linkedin"><a href="#">LinkedIn</a></li>-->
+				<!--<li class="rss"><a href="#">RSS</a></li>-->
+			<!--</ul> <div class="clearfix"></div>-->
+
+			<!-- Search -->
+			<nav class="top-search">
+				<form action="404.php" method="get">
+					<button class="search-btn"></button>
+					<input class="search-field" type="text"  onblur="if(this.value=='')this.value='站内搜索';"
+                           onfocus="if(this.value=='站内搜索')this.value='';" value="站内搜索" />
+				</form>
+			</nav>
+		</div>
     </header>
     <div class="clearfix"></div>
 </div>
