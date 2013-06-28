@@ -70,7 +70,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event.jpg" alt=""/>
+                                <img src="images/event/sports.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 体育月活动</h5>
                                 </figcaption>
@@ -81,7 +81,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event.jpg" alt=""/>
+                                <img src="images/event/karaoke.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 卡拉OK大赛</h5>
                                 </figcaption>
@@ -92,7 +92,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event.jpg" alt=""/>
+                                <img src="images/event/placeholder.png" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 新年联欢会</h5>
                                 </figcaption>
@@ -103,7 +103,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event.jpg" alt=""/>
+                                <img src="images/event/cultureday.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 中国文化节</h5>
                                 </figcaption>
@@ -114,7 +114,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event.jpg" alt=""/>
+                                <img src="images/event/placeholder.png" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 中秋国庆晚会</h5>
                                 </figcaption>
@@ -125,7 +125,7 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event.jpg" alt=""/>
+                                <img src="images/event/placeholder.png" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 新生Orientation</h5>
                                 </figcaption>

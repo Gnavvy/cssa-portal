@@ -36,7 +36,7 @@
 			<div class="four columns isotope-item photography architecture technology">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Time Is Running Out</h5>
 							<span>Photography</span>
@@ -49,7 +49,7 @@
 			<div class="four columns isotope-item architecture identity">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Seeds of Growth</h5>
 							<span>Architecture</span>
@@ -62,7 +62,7 @@
 			<div class="four columns isotope-item identity photography">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Beautiful Flowers</h5>
 							<span>Identity</span>
@@ -75,7 +75,7 @@
 			<div class="four columns isotope-item identity">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Poppy Flower</h5>
 							<span>Identity</span>
@@ -88,7 +88,7 @@
 			<div class="four columns isotope-item photography architecture technology">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Death Valley</h5>
 							<span>Photography</span>
@@ -101,7 +101,7 @@
 			<div class="four columns isotope-item photography technology">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Digital World</h5>
 							<span>Technology</span>
@@ -114,7 +114,7 @@
 			<div class="four columns isotope-item architecture technology">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>American Football</h5>
 							<span>Architecture</span>
@@ -127,7 +127,7 @@
 			<div class="four columns isotope-item identity architecture">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Casual Shoes</h5>
 							<span>Identity</span>
@@ -140,7 +140,7 @@
 			<div class="four columns isotope-item photography architecture">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Winter Mountains</h5>
 							<span>Photography</span>
@@ -153,7 +153,7 @@
 			<div class="four columns isotope-item identity photography technology">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Fruits in Basket</h5>
 							<span>Architecture</span>
@@ -166,7 +166,7 @@
 			<div class="four columns isotope-item identity">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Wireless Keyboard</h5>
 							<span>Identity</span>
@@ -179,7 +179,7 @@
 			<div class="four columns isotope-item photography architecture">
 				<a href="404.php" class="portfolio-item isotope">
 					<figure>
-						<img src="images/event/event.jpg" alt=""/>
+						<img src="images/event/placeholder.png" alt=""/>
 						<figcaption class="item-description">
 							<h5>Mountain Biking</h5>
 							<span>Photography</span>
