@@ -42,7 +42,7 @@
 
                 <section class="entire">
                     <h3> 近期活动 </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
+                    <p> 更多精彩内容请猛戳这里 </p>
                 </section>
 
                 <div class="carousel-navi">
@@ -62,7 +62,6 @@
                                 <img src="images/event/newcommittee.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013-2014 执委会换届选举</h5>
-                                    <span>what to put here?</span>
                                 </figcaption>
                             </figure>
                         </a>
@@ -74,7 +73,6 @@
                                 <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 体育月活动</h5>
-                                    <span>what to put here?</span>
                                 </figcaption>
                             </figure>
                         </a>
@@ -86,7 +84,6 @@
                                 <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 卡拉OK大赛</h5>
-                                    <span>what to put here?</span>
                                 </figcaption>
                             </figure>
                         </a>
@@ -95,10 +92,9 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event-04.jpg" alt=""/>
+                                <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2013 新年联欢会</h5>
-                                    <span>what to put here?</span>
                                 </figcaption>
                             </figure>
                         </a>
@@ -107,10 +103,9 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event-05.jpg" alt=""/>
+                                <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 中国文化节</h5>
-                                    <span>what to put here?</span>
                                 </figcaption>
                             </figure>
                         </a>
@@ -119,10 +114,9 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event-06.jpg" alt=""/>
+                                <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 中秋国庆晚会</h5>
-                                    <span>what to put here?</span>
                                 </figcaption>
                             </figure>
                         </a>
@@ -131,10 +125,9 @@
                     <li class="four columns">
                         <a href="404.php" class="portfolio-item">
                             <figure>
-                                <img src="images/event/event-07.jpg" alt=""/>
+                                <img src="images/event/event.jpg" alt=""/>
                                 <figcaption class="item-description">
                                     <h5>2012 新生Orientation</h5>
-                                    <span>what to put here?</span>
                                 </figcaption>
                             </figure>
                         </a>
@@ -145,40 +138,6 @@
             <!-- jCarousel / End -->
         </div>
     </div> <!-- Recent Work -->
-
-    <!-- Quick Link  -->
-    <div class="container">
-        <section class="icon-box-container">
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-bullhorn"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-magic"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-beaker"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-            <div class="four columns">
-                <article class="icon-box">
-                    <i class="icon-beaker"></i>
-                    <h3> UCDavis CSSA </h3>
-                    <p> 加州大学戴维斯分校中国学生学者联合会 </p>
-                </article>
-            </div>
-        </section>
-    </div>
 
     </div> <!-- Content / End -->
 </div> <!-- Wrapper / End -->
